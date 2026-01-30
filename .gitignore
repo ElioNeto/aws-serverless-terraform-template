@@ -1,0 +1,14 @@
+# Local Development
+.DS_Store
+node_modules/
+package-lock.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# AWS Lambda Artifacts
+*.zip

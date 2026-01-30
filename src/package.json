@@ -1,0 +1,15 @@
+{
+  "name": "aws-serverless-modernization-template",
+  "version": "1.0.0",
+  "description": "Serverless handler demonstrating best practices for legacy migration to Cloud Native.",
+  "main": "handlers/create-item.handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.400.0",
+    "@aws-sdk/lib-dynamodb": "^3.400.0"
+  },
+  "author": "Elio Neto",
+  "license": "MIT"
+}
