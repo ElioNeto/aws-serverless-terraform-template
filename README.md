@@ -32,6 +32,15 @@ I follow a modular structure to separate reusable infrastructure logic (`modules
 │   └── environments/     # Environment instantiation (dev, prod)
 ```
 
+## ⚙️ CI/CD Pipeline
+
+The project includes a GitHub Actions workflow that implements:
+
+- **Quality Gates:** Automated Terraform formatting and validation.
+- **Dependency Management:** Automated Node.js build process.
+- **Environment Consistency:** Infrastructure is only deployed to 'Dev' after passing all validation steps.
+- **Least Privilege:** Recommended deployment via OIDC or restricted IAM Secrets.
+
 ## 🚀 Usage
 
 1. Navigate to the environment folder:
